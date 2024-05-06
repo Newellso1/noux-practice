@@ -1,9 +1,11 @@
 import MainPage from "./Components/MainPage";
+import MainPageResponsive from "./Components/MainPageResponsive";
 
 function App() {
   return (
     <div className="App">
-      <MainPage />
+      <MainPageResponsive />
+      {/* <MainPage /> */}
     </div>
   );
 }

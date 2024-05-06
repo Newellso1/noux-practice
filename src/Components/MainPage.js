@@ -16,7 +16,7 @@ export default function MainPage() {
         <div className="logo w-22">
           <img src={logo} alt="logo" />
         </div>
-        <div className="socials w-fit ml-2 mb-56">
+        <div className="socials w-fit ml-2 mb-44">
           <div className=" w-fit flex flex-col gap-4">
             <div className="w-12 h-12 flex justify-center items-center rounded-full bg-lightPurple bg-opacity-80 transition-all hover:bg-opacity-100">
               <FontAwesomeIcon icon={faXTwitter} className=" w-12  text-2xl" />
@@ -41,26 +41,20 @@ export default function MainPage() {
           </div>
         </div>
       </div>
-      <div className="middle grow flex gap-14">
-        <div className="middle-left">
-          <img src={splash} alt="menu splash" className=" w-60" />
-        </div>
-        <div className="middle-right">
-          <ul>
-            <li className="text-sm">Menu</li>
-            <li>
+      <div className="middle grow flex justify-center items-center">
+        <div className="flex gap-14 justify-center items-center  container">
+          <div className="middle-left">
+            <img src={splash} alt="menu splash" className=" w-60 min-w-60" />
+          </div>
+          <div className="middle-right min-w-fit">
+            <ul className="  flex flex-col gap-4 w-fit">
+              <li className="text-sm p-0">Menu</li>
               <MenuOption link="Who are we?" />
-            </li>
-            <li>
-              <MenuOption link="Who are we?" />
-            </li>
-            <li>
-              <MenuOption link="Who are we?" />
-            </li>
-            <li>
-              <MenuOption link="Who are we?" />
-            </li>
-          </ul>
+              <MenuOption link="Grow your team" />
+              <MenuOption link="Find a role" />
+              <MenuOption link="Contact" />
+            </ul>
+          </div>
         </div>
       </div>
       <div className="right flex flex-col justify-between items-end">

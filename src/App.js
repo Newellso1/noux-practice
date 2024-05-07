@@ -1,4 +1,3 @@
-import MainPage from "./Components/MainPage";
 import MainPageResponsive from "./Components/MainPageResponsive";
 
 function App() {

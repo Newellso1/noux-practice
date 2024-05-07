@@ -10,14 +10,19 @@ export default function MainPageResponsive() {
   return (
     <div className=" flex flex-col h-dvh bg-purple text-center p-4 md:pt-8">
       <div className="top  flex grow flex-col gap-16 justify-center items-center mt-14 md:mt-0  md:flex-row ">
-        <img src={logo} alt="logo" className=" md:place-self-start md:w-20" />
-        <div className="md:flex md:justify-center md:grow md:text-left">
+        <div className="flex flex-col md:h-full md:gap-48">
+          <img src={logo} alt="logo" className=" md:place-self-start md:w-20" />
+          <div className="hidden md:inline">
+            <Socials />
+          </div>
+        </div>
+        <div className=" md:ml-14 md:flex md:justify-center md:items-center md:grow md:text-left">
           <Menu />
         </div>
         <div className="md:collapse">
           <Socials />
         </div>
-        <div className="collapse md:place-self-start md:visible">
+        <div className="hidden md:place-self-start md:inline opacity-80 transition-all hover:opacity-100 cursor-pointer">
           <div className="flex justify-center gap-2 items-center border-2 rounded-full px-4 py-1">
             <div className="text-sm">Close</div>
             <FontAwesomeIcon className=" text-l" icon={faXmark} />

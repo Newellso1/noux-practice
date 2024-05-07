@@ -8,7 +8,7 @@ import {
 
 export default function Socials() {
   return (
-    <div className="flex gap-6">
+    <div className="flex gap-6 md:flex-col">
       <div className="flex justify-center items-center text-3xl size-14 bg-lightPurple rounded-full bg-opacity-80 transition-all hover:bg-opacity-100">
         <FontAwesomeIcon icon={faXTwitter} />
       </div>

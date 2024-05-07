@@ -8,7 +8,7 @@ import Socials from "./Socials";
 
 export default function MainPageResponsive() {
   return (
-    <div className=" flex flex-col h-dvh min-h-dvh bg-purple text-center p-4 md:pt-8 w-dvw overflow-hidden">
+    <div className=" flex flex-col h-dvh  bg-purple text-center p-4 md:pt-8 w-dvw overflow-hidden">
       <div className="top  flex grow flex-col gap-16 justify-center items-center mt-14 md:mt-0  md:flex-row ">
         <div className="flex flex-col md:h-full md:gap-48">
           <img src={logo} alt="logo" className=" md:place-self-start md:w-20" />

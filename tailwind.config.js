@@ -8,6 +8,7 @@ module.exports = {
       lightPurple: "#392E51",
       text: "#d5dbff",
       bold: "#9755FF",
+      black: "#040118",
     },
   },
   plugins: [],

@@ -9,7 +9,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: Plus Jakarta Sans;
-  color: #d5dbff;
+
   /* border: 1px solid; */
 }
 
@@ -19,6 +19,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #d5dbff;
 }
 
 code {
@@ -29,4 +30,8 @@ code {
 .App {
   width: 100vw;
   height: 100vh;
+}
+
+.icon {
+  color: black;
 }

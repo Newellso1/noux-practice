@@ -3,7 +3,7 @@ import logoDark from "../Assets/logo-dark.png";
 export default function Navbar({ handleMenuOpen, menuOpen }) {
   return (
     <div>
-      <div className="flex border-2 justify-between items-center w-dvh px-2 py-6 md:px-6 gap-10">
+      <div className=" flex border-2 justify-between items-center w-dvh px-6 py-6 md:px-6 gap-10">
         <div>
           <img src={logoDark} alt="logo dark" className="w-28" />
         </div>
